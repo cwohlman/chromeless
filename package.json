@@ -24,6 +24,7 @@
     "coverage": "npm run ava",
     "precommit": "lint-staged",
     "prepublishOnly": "npm test && npm run build",
+    "prepare": "npm run build",
     "prettier": "prettier --no-semi --single-quote --trailing-comma all --write \"src/**/*.ts\"",
     "release": "np",
     "test": "npm run tslint && npm run ava",
